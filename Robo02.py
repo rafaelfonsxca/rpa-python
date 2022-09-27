@@ -1,6 +1,6 @@
 import rpa as r
 import pyautogui as p
-
+# r.setup()
 r.init() # abre o browser automaticamente
 r.url('http://www.google.com')
 janela = p.getActiveWindow()
